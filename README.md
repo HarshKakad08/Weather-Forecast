@@ -1,14 +1,12 @@
-# 🌦️ Weather Forecast
+# 🌦️ Weather Dashboard
 
-A sleek and interactive Streamlit app to display live weather and 5-day forecasts using OpenWeatherMap API. Features include:
+A beginner-level weather dashboard project that fetches and displays real-time weather data using the OpenWeatherMap API.
 
-- Toggle between Celsius and Fahrenheit
-- Weather alerts and icons
-- 5-day forecast preview
-- Responsive dark-themed UI
+## Features
+- Fetch weather info for any city
+- Shows temperature, humidity, wind, and description
+- Command-line version and notebook interface
 
 ## How to Run
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+1. Add your API key in `config.py`
+2. Install requirements:
