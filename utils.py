@@ -2,7 +2,7 @@ import requests
 from datetime import datetime
 from collections import defaultdict
 
-API_KEY = "1d0c90b647289d84bee8afc709fb3608"
+API_KEY = "Add Your API Key"
 
 def get_weather(city, units="metric"):
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units={units}"
